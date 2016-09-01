@@ -1,0 +1,399 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	outline:: none;	
+}
+
+body {
+	padding-top: 50px;
+	line-height: 1;
+}
+
+a {
+	text-decoration: none;
+	color: #000;	
+}
+
+ul {
+	list-style: none;	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	padding: .6em 0;
+	margin: 0 15px; 	
+}
+
+/** NAV **/
+
+nav {
+	background-color: #352d2f;
+	font-family: 'Titillium Web', sans-serif;
+	min-height: 50px;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	width: 100%;	
+}
+
+.logo {
+	background-color: #f63c3c;
+	display: inline-block;
+	margin-left: 10%;
+	padding: 9px 10px 10px;
+	color: #fff;
+}
+
+a.logo span:first-child {
+	left: 3px;
+	position: relative;	
+}
+
+.sitenav {
+	float: right;
+	margin-right: 10%;
+	display: inline-block;
+}
+
+.sitenav li {
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.sitenav a {
+	color: #fff;
+	padding:16px 20px ;
+	display: inline-block;
+}
+
+li.active a {
+	border-bottom: 3px solid #fff;	
+}
+
+.sitenav a:hover {
+	border-bottom: 3px solid #fff;
+}
+
+/** HEADER **/
+
+#intro {
+	background-color: #352d2f;
+	color: #fff;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+	position: relative;
+	min-height: 600px;
+}
+
+#intro h1 {
+	width: 60%;
+	padding: 15% 0 5%;
+	margin: 0 auto;
+	font-size: 80px;
+	letter-spacing: 10px;
+}
+
+#intro button {
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 15px;	
+	cursor: pointer;
+}
+
+#intro a {
+	color: inherit;
+	position: absolute;
+	bottom: 30px;
+	display: block;
+	width: 100%;
+}
+
+#intro p {
+	margin-top: 5px;
+	font-size: 16px;	
+}
+
+
+/** EXPLORE **/
+
+#explore {
+	font-family: 'Teko', sans-serif;
+	width: 60%;
+	margin: 0 auto;
+	padding: 3% 0;
+	text-align: center;
+}
+
+#explore h1{
+	font-size: 30px;
+	letter-spacing: 5px;
+	line-height: 30px;
+}
+
+#explore button {
+	background-color: #f63c3c;
+	color: #fff;
+	border: 1pz solid #fff;
+	padding: 10px 15px;	
+	cursor: pointer;
+}
+
+/** PROJECTS **/
+#projects {
+	height: 600px;
+	font-family: 'Teko', sans-serif;
+	color: #fff;
+}
+
+.main-feature {
+	float: left;
+	background-color: #f63c3c;
+	height: 550px;
+	width: 50%;
+}
+
+.main-feature div {
+	font-size: 14px;
+	margin: 50% 10% 3%;	
+}
+
+.main-feature .title {
+	margin: 0 10%;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.main-feature p {
+	margin: 0 10%;
+	width: 45%;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: 'Titillium Web', sans-serif;;
+}
+
+.side-feature {
+	float: right;
+	background-color: #352d2f;	
+	height: 275px; 
+	width: 50%;
+}
+
+.side-feature:nth-child(3) {
+	background-color: #30282a;
+}
+
+.side-feature .title {
+	margin: 20% 10% 0;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.side-feature p {
+	margin: 0 10%;
+	width: 45%;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.bottom-feature {
+	background-color: #352d2f;
+	padding: 10px 0;
+	height: 50px;
+	clear: both;
+	text-align: center;
+}
+
+.bottom-feature a {
+	font-size: 16px;
+	color: #fff;
+	padding: 5px;
+	border-bottom: 3px solid #fff;
+	width: 14%;
+	margin: 0 auto;
+}
+
+/** INFO **/
+
+#info {
+	font-family: 'Teko', sans-serif;
+	padding: 3% 0;
+	background-color: #fafafa;
+}
+
+#info div {
+	width: 35%;
+	margin-left: 7%;
+	display: inline-block;
+}
+
+#info div:first-child {
+	margin-left: 10%;
+}
+
+#info h3 {
+	margin-left: 0;
+}
+
+#info p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+}
+
+#info i {
+	color: #f63c3c;
+}
+
+/** SOCIAL **/
+
+#social {
+	padding: 3% 0;
+	background-color: #fafafa;
+}
+
+#social > div {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#social h1 {
+	font-family:'Teko', sans-serif;
+	font-size: 30px;
+	margin-left: 0;
+}
+
+#social p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+	margin: 0 0 1%;
+}
+
+#social h3 {
+	margin: 0;
+}
+
+#social-icons > a {
+	background-color: #352d2f;
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+	padding: 40px 74px;
+}
+
+#social-icons > a:nth-child(n+2) {
+	margin-left: 2%
+}
+
+/** CONTACT **/
+#contact {
+	background-color: #352d2f;
+	padding: 150px;
+	font-family:'Teko', sans-serif;
+}
+
+#contact div {
+	background-color: #f63c3c;
+	width: 35%;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	padding: 45px 25px;
+}
+
+#contact i {
+	margin: 1% 0;
+}
+
+#contact address {
+	font-size: 14px;
+}
+
+#contact span {
+	display: inline-block;
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-style: normal;
+	margin: 2% 0 1%;
+}
+
+#contact a {
+	color: #fff;
+}
+
+/** FOOTER **/
+#footer {
+	width: 65%;
+	margin: 0 auto;
+	padding: 0 0 3%;
+	font-family: 'Teko', sans-serif;
+}
+
+.col-25 {
+	float: left;
+	width: 20%;
+	margin: 3%;
+}
+
+.col-50 {
+	float: left;
+	width: 45%;
+	margin: 3% 0;
+}
+
+#footer h3 {
+	margin-left: 0;
+}
+
+#footer > div > hr {
+	border: 3px solid #000;
+}
+
+#footer > hr {
+	border: 1px solid #000;
+	margin-top: 25px;
+	clear: left;
+}
+
+.col-50 ul {
+	float: left;
+	width: 50%;
+}
+
+#footer div:last-child {
+	clear: both;
+}
+
+#footer div:last-child ul {
+	float: right;
+}
+
+#footer div:last-child li {
+	display: inline-block;
+}
+
+#footer ul {
+	padding-top: 5px;
+	font-size: 12px;
+}
+
+.term li {
+	padding: 0 15px;
+}
+
+
+#footer li {
+	margin: 1% 0;
+}
+
+#footer span {
+	font-size: 12px;
+}
+
+
+
+
+
+
+
